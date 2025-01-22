@@ -1,40 +1,99 @@
 <html>
-    <title>Marinello</title>
+    <title>Safebooru</title>
     <style>
-        ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 15 17px;
-          text-decoration: none;
-        }
-        
-        li a:hover {
-          background-color: #111;
-        }
-        </style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      b{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 112, 249);
+        font-size: 23px;
+        margin-left: 9px;
+      }
+      h5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-left: 15px;
+        margin-bottom: 0.1px;
+        margin-top: 100px;
+      }
+      input{
+        margin-left: 15px;
+        width: 155px;
+        height: 20px;
+      }
+      div button{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3px;
+        margin-left: 15px;
+        width: 155px;
+        height: 20px;
+        text-align: center;
+      }
+      .sidenav {
+        height: 100%;
+        width: 190px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 10px;
+      }
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(0, 112, 249);
+        display: block;
+      }
+      
+
+
+
+
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color:rgb(0, 112, 249);
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+      }
+
+    </style>
         </head>
         <body>
-        
-        <ul>
-          <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-        
+          <b>Safebooru</b>
+          <ul>
+            <li><a class="active" href="#home">My Account</a></li>
+            <li><a href="#news">Post</a></li>
+            <li><a href="#contact">Comments</a></li>
+            <li><a href="wiki img/">Wiki</a></li>
+          </ul>
+
+
+          <div class="sidenav">
+            <h5>Search</h5>
+            <input type="text">
+            <button>Search</button>
+            <h5>Tags</h5>
+            <a href="Arknights/arknights.html">Arknights</a>
+            <a href="Blue Archive/blue archive.html">Blue Archive</a>
+            <a href="Girls Frontline/girls frontline.html">Girls Frontline</a>
+          </div>
+
         </body>
-    </body>
 </html>
